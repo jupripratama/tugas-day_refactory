@@ -14,7 +14,7 @@ func main() {
 				fmt.Print("Bilangan Ganjil \n ")
 			}
 		} else {
-			fmt.Print("Penyataan selesai, karena angka sudah lebih dari 10. Terima kasih \n")
+			fmt.Print("Penyataan selesai, karena angka sudah lebih dari 10000. Terima kasih \n")
 		}
 	}
 }
