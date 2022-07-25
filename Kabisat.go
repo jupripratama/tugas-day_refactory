@@ -5,7 +5,7 @@ import "fmt"
 //Jupri Eka Pratama
 func main() {
 	var tahun = 0
-	fmt.Print("Masukan Bilangan : ")
+	fmt.Print("Masukan Tahun : ")
 	fmt.Scan(&tahun)
 	if tahun%4 == 0 {
 		if tahun%100 == 0 {
