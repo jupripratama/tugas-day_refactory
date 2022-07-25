@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	//Jupri Eka Pratama
 	for i := 1; i < 10000; i++ {
 		fmt.Print("Masukan Bilangan : ")
 		fmt.Scan(&i)

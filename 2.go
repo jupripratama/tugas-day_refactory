@@ -16,6 +16,7 @@ func main() {
 	// } else {
 	// 	fmt.Println("E")
 	// }
+	//Jupri Eka Pratama
 
 	for nilai := 0; nilai < 100; nilai++ {
 		fmt.Print("Masukan Nilai : ")

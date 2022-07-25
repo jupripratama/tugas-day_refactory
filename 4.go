@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//Jupri Eka Pratama
 func main() {
 	var tahun = 0
 	fmt.Print("Masukan Bilangan : ")

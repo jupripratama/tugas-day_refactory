@@ -16,6 +16,8 @@ func main() {
 	// 	fmt.Print("Ini FIlM Untuk SEMUA USIA. \n ")
 	// }
 
+	//Jupri Eka Pratama
+
 	for usia := 0; usia < 100; usia++ {
 		fmt.Print("Masukan Usia Anda : ")
 		fmt.Scan(&usia)
