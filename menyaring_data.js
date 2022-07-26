@@ -7,11 +7,9 @@ const people = [
   { id: 6, name: "Ririn", age: 21 },
 ];
 
-var filter = [];
-people.forEach(function (umur) {
-  if (umur.age < 21) {
-    filter.push(umur);
-  }
-});
+const mapData = people.filter(getAge);
 
-console.log(filter);
+function getAge(info) {
+  return info.age < 21;
+}
+console.log(mapData);
