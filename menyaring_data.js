@@ -7,11 +7,11 @@ const people = [
   { id: 6, name: "Ririn", age: 21 },
 ];
 
-var saring = [];
-people.forEach(function (sar) {
-  if (sar.age < 21) {
-    saring.push(sar);
+var filter = [];
+people.forEach(function (umur) {
+  if (umur.age < 21) {
+    filter.push(umur);
   }
 });
 
-console.log(saring);
+console.log(filter);
